@@ -1,6 +1,6 @@
 import { PREFERENCE } from "../types/actions";
 
-const initialState = { language: "en-US" };
+const initialState = { language: "English" };
 
 export default (state = initialState, action) => {
 	switch (action.type) {
