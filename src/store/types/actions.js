@@ -1,0 +1,3 @@
+export const PREFERENCE = {
+	SET_LANGUAGE: "SET_LANGUAGE"
+};
