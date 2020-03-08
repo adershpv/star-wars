@@ -1,0 +1,26 @@
+{
+  "plugins": ["react"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "react-app",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-debugger": "warn",
+    "one-var": ["error", "never"],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
+    "no-var": "error",
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "react/no-find-dom-node": "error",
+    "curly": "error"
+  }
+}
