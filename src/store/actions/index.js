@@ -1,1 +1,2 @@
-export { setLanguage } from "./preferenceActions";
+export { getCharacters } from "./characterActions";
+export { getMovieDetails } from "./movieActions";

@@ -1,3 +1,7 @@
-export const PREFERENCE = {
-	SET_LANGUAGE: "SET_LANGUAGE"
+export const CHARACTER = {
+	GET_CHARACTERS: "GET_CHARACTERS"
+};
+
+export const MOVIE = {
+	SET_MOVIE_DETAILS: "SET_MOVIE_DETAILS"
 };

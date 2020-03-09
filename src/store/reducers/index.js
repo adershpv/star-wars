@@ -1,9 +1,11 @@
 import { combineReducers } from "redux";
 
-import Preference from "./preferenceReducer";
+import Character from "./characterReducer";
+import Movie from "./movieReducer";
 
 const rootReducer = combineReducers({
-	Preference
+	Character,
+	Movie
 });
 
 export default rootReducer;
